@@ -4,10 +4,10 @@
 This project demonstrates the implementation of a sorting algorithm in MIPS assembly and the creation of an assembler in Python to convert MIPS assembly code into machine code.
 
 ## Files 
-- **029_128_full_template_code.asm:** Contains the template code given along with the sorting algorithm that we have written.
-- **029_128_assembler.py:** Contains the Python code that works as an assembler to convert the MIPS assembly contents of the file `029_128_full_template_code.asm` into machine code and outputs into a `029_128_machine_code.txt` file.
-- **029_128_maincode.asm:** Contains the sorting algorithm (selection sort) that we have written in MIPS along with comments to explain the code lines.
-- **029_128_machine_code.txt:** The output of the assembler i.e., the machine code is written into this file.
+- **full_template_code.asm:** Contains the template code given along with the sorting algorithm that we have written.
+- **assembler.py:** Contains the Python code that works as an assembler to convert the MIPS assembly contents of the file `full_template_code.asm` into machine code and outputs into a `machine_code.txt` file.
+- **maincode.asm:** Contains the sorting algorithm (selection sort) that we have written in MIPS along with comments to explain the code lines.
+- **machine_code.txt:** The output of the assembler i.e., the machine code is written into this file.
 
 ## Assembly Programming
 
@@ -49,8 +49,8 @@ The assembler reads the MIPS assembly program and generates the corresponding ma
 ## Usage
 To run the assembler and generate the machine code:
 1. Ensure you have Python installed.
-2. Place the `029_128_full_template_code.asm` in the same directory as `029_128_assembler.py`.
+2. Place the `_full_template_code.asm` in the same directory as `_assembler.py`.
 3. Run the Python script:
    ```bash
-   python 029_128_assembler.py
-4. Check the generated 029_128_machine_code.txt for the machine code output.
+   python _assembler.py
+4. Check the generated _machine_code.txt for the machine code output.
