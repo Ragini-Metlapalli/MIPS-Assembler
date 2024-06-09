@@ -167,8 +167,8 @@ def create_lines(filename):
     for ele in lines_list:
         hex_string = format(int(assembly_machine(ele),2), '#010x')
         machine_code.append(assembly_machine(ele) + "    " + hex_string)
-        write_to_file(machine_code, "029_128_machine_code.txt")
+        write_to_file(machine_code, "machine_code.txt")
 
                     
-create_lines('029_128_full_template_code.asm')
+create_lines('full_template_code.asm')
 
